@@ -1,0 +1,19 @@
+.message-box {
+  background-color: #e0e0e0;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 8px;
+  color: #282828;
+}
+
+.sent-message {
+  background-color: #d1f7c4;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.received-message {
+  background-color: #f0f0f0;
+  margin-left: 0;
+  margin-right: auto;
+}
