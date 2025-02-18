@@ -81,7 +81,7 @@ void send_button_click(GtkButton *button, gpointer user_data)
   GtkEntryBuffer *buf = gtk_entry_get_buffer(widgets->entry);
   const char *text = gtk_entry_buffer_get_text(buf);
 
-  if (strlen(text) == 0) return;  // Don't send empty messages
+  if (strlen(text) == 0) return;
 
   send_message(widgets, text);
 
