@@ -1,8 +1,35 @@
 # GTK chat application
 This is a very simple GTK app in C, just for the sake of learning, made a simple chat app that runs on the local machine.
 
+# Dependencies
 
-if you want to test this, clone the repo
+- gcc
+- make
+- gtk4 development libraries
+if you're on arch, 
+```bash
+sudo pacman -S gtk4
+```
+
+if you're on a debian based system
+```bash
+sudo apt install libgtk-4-dev
+```
+
+- pgk-config: helps gcc locate the correct gtk4 headers and libraries
+if you're on arch
+```bash
+sudo pacman -S pkgconf
+```
+
+debian based
+```bash
+sudo apt install pkg-config
+```
+
+# Running
+
+clone the repo
 ```bash
 git clone https://github.com/kysakhin/gtk-chat-app.git 
 cd gtk-chat-app

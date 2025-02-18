@@ -227,6 +227,4 @@ void activate(GtkApplication* app, gpointer user_data)
   gtk_box_append(GTK_BOX(vbox), close_btn);
 
   gtk_window_set_child(GTK_WINDOW(window), vbox);
-
-  g_signal_connect(window, "destroy", G_CALLBACK(cleanup), widgets);
 }
